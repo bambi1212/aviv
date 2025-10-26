@@ -17,17 +17,17 @@ window.addEventListener('load', () => {
   if (contactForm) {
     contactForm.addEventListener('submit', event => {
       event.preventDefault();
-      const shortText = contactForm.querySelector('#short-text');
-      const email = contactForm.querySelector('#email');
-      if (shortText && !shortText.value.trim()) {
-        shortText.focus();
+      const nameField = contactForm.querySelector('#name');
+      const emailField = contactForm.querySelector('#email');
+      if (nameField && !nameField.value.trim()) {
+        nameField.focus();
         return;
       }
-      if (email && !email.value.includes('@')) {
-        email.focus();
+      if (emailField && !emailField.value.includes('@')) {
+        emailField.focus();
         return;
       }
-      window.alert('הטופס נשלח בהצלחה');
+      window.alert('form submitted successfully');
       contactForm.reset();
     });
   }

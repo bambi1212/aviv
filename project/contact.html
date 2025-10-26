@@ -1,30 +1,30 @@
 <!doctype html>
-<html dir="rtl" lang="he">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>skyshield gcs | צור קשר</title>
+<title>skyeye | contact</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header class="site-header">
 <div class="container nav-container">
 <a href="index.html" class="logo">
-<img src="img/logo.png" alt="לוגו skyshield gcs">
-<span>skyshield gcs</span>
+<img src="img/logo.png" alt="skyeye logo">
+<span>skyeye</span>
 </a>
 <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">
-<span class="sr-only">פתיחת תפריט</span>
+<span class="sr-only">toggle navigation</span>
 <span class="toggle-bar"></span>
 <span class="toggle-bar"></span>
 <span class="toggle-bar"></span>
 </button>
 <nav id="primary-nav" class="primary-nav">
 <ul>
-<li><a href="index.html" class="nav-link">דף הבית</a></li>
-<li><a href="about.html" class="nav-link">אודות</a></li>
-<li><a href="gallery.html" class="nav-link">גלריה</a></li>
-<li><a href="contact.html" class="nav-link active">צור קשר</a></li>
+<li><a href="index.html" class="nav-link">home</a></li>
+<li><a href="about.html" class="nav-link">about</a></li>
+<li><a href="gallery.html" class="nav-link">gallery</a></li>
+<li><a href="contact.html" class="nav-link active">contact</a></li>
 </ul>
 </nav>
 </div>
@@ -32,91 +32,91 @@
 <main>
 <section class="page-hero contact-hero">
 <div class="container">
-<h1>צור קשר עם צוות skyshield gcs</h1>
-<p>נשמח לשתף מידע על חיבור המערכת למערך השליטה והבקרה שלך.</p>
+<h1>contact skyeye</h1>
+<p>connect with our mission specialists to align integrations, trials, or partnership opportunities.</p>
 </div>
 </section>
 <section class="contact-section">
 <div class="container contact-grid">
 <form id="contact-form" novalidate>
 <div class="form-group">
-<label for="short-text">מלל קצר</label>
-<input type="text" id="short-text" name="short-text" required>
+<label for="name">name</label>
+<input type="text" id="name" name="name" required>
 </div>
 <div class="form-group">
-<label for="long-text">מלל ארוך</label>
-<textarea id="long-text" name="long-text" rows="5" required></textarea>
-</div>
-<div class="form-group">
-<label for="email">דוא"ל</label>
+<label for="email">email</label>
 <input type="email" id="email" name="email" required>
 </div>
 <div class="form-group">
-<label for="phone">טלפון</label>
+<label for="phone">phone</label>
 <input type="tel" id="phone" name="phone">
 </div>
+<div class="form-group">
+<label for="message">message</label>
+<textarea id="message" name="message" rows="5" required></textarea>
+</div>
 <fieldset class="form-group">
-<legend>בחירה משתי אפשרויות</legend>
+<legend>inquiry type</legend>
 <div class="option-group">
-<input type="radio" id="option-briefing" name="contact-type" value="briefing" required>
-<label for="option-briefing">תיאום תדרוך</label>
+<input type="radio" id="question" name="inquiry" value="question" required>
+<label for="question">general question</label>
 </div>
 <div class="option-group">
-<input type="radio" id="option-demo" name="contact-type" value="demo">
-<label for="option-demo">בקשת הדגמה</label>
+<input type="radio" id="issue" name="inquiry" value="issue">
+<label for="issue">technical issue</label>
 </div>
 </fieldset>
 <fieldset class="form-group">
-<legend>בחירה מרובה</legend>
+<legend>subscriptions</legend>
 <div class="option-group">
-<input type="checkbox" id="interest-integration" name="interests" value="integration">
-<label for="interest-integration">שילוב עם מערכות קיימות</label>
+<input type="checkbox" id="release" name="subscriptions" value="release">
+<label for="release">release notes</label>
 </div>
 <div class="option-group">
-<input type="checkbox" id="interest-training" name="interests" value="training">
-<label for="interest-training">הדרכת צוותים</label>
+<input type="checkbox" id="beta" name="subscriptions" value="beta">
+<label for="beta">beta access</label>
 </div>
 <div class="option-group">
-<input type="checkbox" id="interest-support" name="interests" value="support">
-<label for="interest-support">תמיכה מתמשכת</label>
+<input type="checkbox" id="partnerships" name="subscriptions" value="partnerships">
+<label for="partnerships">partnerships</label>
 </div>
 </fieldset>
 <div class="form-group">
-<label for="priority">רמת עדיפות</label>
-<select id="priority" name="priority" required>
-<option value="">בחר רמת עדיפות</option>
-<option value="urgent">דחוף</option>
-<option value="high">גבוהה</option>
-<option value="medium">בינונית</option>
-<option value="low">נמוכה</option>
+<label for="topic">topic</label>
+<select id="topic" name="topic" required>
+<option value="">select a topic</option>
+<option value="integration">integration planning</option>
+<option value="demo">product demo</option>
+<option value="support">mission support</option>
+<option value="partnership">strategic partnership</option>
 </select>
 </div>
-<button type="submit" class="btn">שלח</button>
+<button type="submit" class="btn">submit</button>
 </form>
-<div class="map-placeholder" aria-hidden="true">מפת אזור תפעולי</div>
+<div class="map-placeholder" aria-hidden="true">operations map placeholder</div>
 </div>
 </section>
 </main>
 <footer class="site-footer">
 <div class="container footer-grid">
 <div class="footer-brand">
-<img src="img/logo.png" alt="לוגו skyshield gcs">
-<span>skyshield gcs</span>
+<img src="img/logo.png" alt="skyeye logo">
+<span>skyeye</span>
 </div>
 <nav class="footer-nav">
 <ul>
-<li><a href="index.html">דף הבית</a></li>
-<li><a href="about.html">אודות</a></li>
-<li><a href="gallery.html">גלריה</a></li>
-<li><a href="contact.html">צור קשר</a></li>
+<li><a href="index.html">home</a></li>
+<li><a href="about.html">about</a></li>
+<li><a href="gallery.html">gallery</a></li>
+<li><a href="contact.html">contact</a></li>
 </ul>
 </nav>
 <div class="footer-links">
-<a href="https://www.mod.gov.il" target="_blank" rel="noopener noreferrer">משרד הביטחון</a>
-<a href="https://www.iai.co.il" target="_blank" rel="noopener noreferrer">תעשייה אווירית</a>
-<a href="https://www.elbitsystems.com" target="_blank" rel="noopener noreferrer">אלביט מערכות</a>
+<a href="https://www.nato.int" target="_blank" rel="noopener noreferrer">nato</a>
+<a href="https://www.lockheedmartin.com" target="_blank" rel="noopener noreferrer">lockheed martin</a>
+<a href="https://www.satellitetoday.com" target="_blank" rel="noopener noreferrer">satellite today</a>
 </div>
-<p class="footer-copy">כל הזכויות שמורות skyshield gcs &copy; 2024</p>
+<p class="footer-copy">&#169; 2024 skyeye. all rights reserved.</p>
 </div>
 </footer>
 <script src="js/main.js"></script>
