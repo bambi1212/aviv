@@ -1,0 +1,124 @@
+<!doctype html>
+<html dir="rtl" lang="he">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>skyshield gcs | צור קשר</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="container nav-container">
+<a href="index.html" class="logo">
+<img src="img/logo.png" alt="לוגו skyshield gcs">
+<span>skyshield gcs</span>
+</a>
+<button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">
+<span class="sr-only">פתיחת תפריט</span>
+<span class="toggle-bar"></span>
+<span class="toggle-bar"></span>
+<span class="toggle-bar"></span>
+</button>
+<nav id="primary-nav" class="primary-nav">
+<ul>
+<li><a href="index.html" class="nav-link">דף הבית</a></li>
+<li><a href="about.html" class="nav-link">אודות</a></li>
+<li><a href="gallery.html" class="nav-link">גלריה</a></li>
+<li><a href="contact.html" class="nav-link active">צור קשר</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<main>
+<section class="page-hero contact-hero">
+<div class="container">
+<h1>צור קשר עם צוות skyshield gcs</h1>
+<p>נשמח לשתף מידע על חיבור המערכת למערך השליטה והבקרה שלך.</p>
+</div>
+</section>
+<section class="contact-section">
+<div class="container contact-grid">
+<form id="contact-form" novalidate>
+<div class="form-group">
+<label for="short-text">מלל קצר</label>
+<input type="text" id="short-text" name="short-text" required>
+</div>
+<div class="form-group">
+<label for="long-text">מלל ארוך</label>
+<textarea id="long-text" name="long-text" rows="5" required></textarea>
+</div>
+<div class="form-group">
+<label for="email">דוא"ל</label>
+<input type="email" id="email" name="email" required>
+</div>
+<div class="form-group">
+<label for="phone">טלפון</label>
+<input type="tel" id="phone" name="phone">
+</div>
+<fieldset class="form-group">
+<legend>בחירה משתי אפשרויות</legend>
+<div class="option-group">
+<input type="radio" id="option-briefing" name="contact-type" value="briefing" required>
+<label for="option-briefing">תיאום תדרוך</label>
+</div>
+<div class="option-group">
+<input type="radio" id="option-demo" name="contact-type" value="demo">
+<label for="option-demo">בקשת הדגמה</label>
+</div>
+</fieldset>
+<fieldset class="form-group">
+<legend>בחירה מרובה</legend>
+<div class="option-group">
+<input type="checkbox" id="interest-integration" name="interests" value="integration">
+<label for="interest-integration">שילוב עם מערכות קיימות</label>
+</div>
+<div class="option-group">
+<input type="checkbox" id="interest-training" name="interests" value="training">
+<label for="interest-training">הדרכת צוותים</label>
+</div>
+<div class="option-group">
+<input type="checkbox" id="interest-support" name="interests" value="support">
+<label for="interest-support">תמיכה מתמשכת</label>
+</div>
+</fieldset>
+<div class="form-group">
+<label for="priority">רמת עדיפות</label>
+<select id="priority" name="priority" required>
+<option value="">בחר רמת עדיפות</option>
+<option value="urgent">דחוף</option>
+<option value="high">גבוהה</option>
+<option value="medium">בינונית</option>
+<option value="low">נמוכה</option>
+</select>
+</div>
+<button type="submit" class="btn">שלח</button>
+</form>
+<div class="map-placeholder" aria-hidden="true">מפת אזור תפעולי</div>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="container footer-grid">
+<div class="footer-brand">
+<img src="img/logo.png" alt="לוגו skyshield gcs">
+<span>skyshield gcs</span>
+</div>
+<nav class="footer-nav">
+<ul>
+<li><a href="index.html">דף הבית</a></li>
+<li><a href="about.html">אודות</a></li>
+<li><a href="gallery.html">גלריה</a></li>
+<li><a href="contact.html">צור קשר</a></li>
+</ul>
+</nav>
+<div class="footer-links">
+<a href="https://www.mod.gov.il" target="_blank" rel="noopener noreferrer">משרד הביטחון</a>
+<a href="https://www.iai.co.il" target="_blank" rel="noopener noreferrer">תעשייה אווירית</a>
+<a href="https://www.elbitsystems.com" target="_blank" rel="noopener noreferrer">אלביט מערכות</a>
+</div>
+<p class="footer-copy">כל הזכויות שמורות skyshield gcs &copy; 2024</p>
+</div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
